@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 
 const Laskuri = () => {
-  const [ maara, asetaMaara ] = useState(1);
+  const [ count, setCount] = useState(0);
 
-  const increment = () => asetaMaara(maara + 1);
+  const increment = () => 
+    setCount(count + 1);
 
-  return <p onClick={increment}>{ maara }</p>;
-}
+  return (
+    <div>
+      <p>Laskuri: {count}</p>
+      <button onClick={increment}>Lisää</button>
+    </div>
+  );
+};
 
 export default Laskuri;
