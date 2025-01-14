@@ -1,15 +1,55 @@
-import React from "react";
+import { useState } from "react";
 
 const Yhteys = () => {
+  const [name, setName] = useState('');
+  const [number, setNumber] = useState('');
+  const [message, setMessage] = useState('');
+    
+  const handleSubmit = (e) => {
+      e.preventDefault();
+      console.log({name, number, message});
+  }
+
+  const hadleClear = () => {
+    setName('');
+    setNumber('');
+    setMessage('');
+  }
+
   return (
-    <div>
-      <h2>Yhteyden otot</h2>
-      <p>
-        Helpoin tapa lähettää sähköpostia{" "}
-        <a href="http://forum.abcabc.com">foorumille</a>.
-      </p>
+    <div className="lomake">
+    <h2>Yhteydenottolomake</h2>
+    <form onSubmit={handleSubmit}>
+        <label>
+            <input 
+            onChange={(e) => setName(e.target.value)} 
+            value={name} 
+            type="text" 
+            name="nimi" 
+            placeholder="Nimi" 
+            />
+        </label><br />
+        <label>
+            <input
+            onChange={(e) => setNumber(e.target.value)} 
+            value={number} type="tel" 
+            name="puhelin" 
+            placeholder="Puhelinnumero" 
+            />
+        </label><br />
+        <label>
+            <textarea 
+            onChange={(e) => setMessage(e.target.value)} 
+            value={message} 
+            type="text" name="aihe" 
+            placeholder="Kirjoita aihe"
+            />
+        </label><br />
+        <button type="submit">Lähetä</button>
+        <button type="button" onClick={hadleClear}>Tyhjennä</button>
+    </form>
     </div>
-  );
-};
+)
+}
 
 export default Yhteys;

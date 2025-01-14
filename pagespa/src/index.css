@@ -2,6 +2,7 @@ body {
     background-color: #FFCC00;
     padding: 20px;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   h1, h2, p, ul, li {
     font-family: sans-serif;
@@ -20,18 +21,139 @@ body {
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
+    text-align: center;
     display: inline-block;
   }
   .content {
     background-color: #FFF;
     padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .content h2 {
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .content li {
     margin-bottom: 10px;
+  }
+
+  .map_container {
+    width: 1100px;
+    height: 900px;
+  }
+
+  .img_container {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .img_container img {
+    width: 500px;
+    padding: 1px;
+    height: 500px;
+    border: rgb(216, 215, 215) 4px solid;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .lomake {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+    height: 100%;
+    width: 20%;
+  }
+
+  .lomake h2 {
+    color: #111;
+    margin: 10px;
+  }
+
+  .lomake form {
+    margin: 0;
+  }
+
+  .lomake label input {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 90%;
+
+  }
+
+  .lomake label textarea {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+  .lomake button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFCC00;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+
+  .lomake button:hover {
+    background-color: #0099FF;
+  }
+
+  .footer {
+    background-color: #111;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer ul a {
+    color: black; 
+    padding: 7px;
+    margin: 0px;
+    background-color: #FFCC00;
+    text-decoration: none;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .footer a:hover {
+    color: #000000;
+    background-color: #0099FF;
+  }
+
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer p {
+    color: #FFF;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .sitelogo {
+    display: flex;
+    height: 50px;
+    width: 60px;
+    margin: 20px;
   }
   
   .active {
