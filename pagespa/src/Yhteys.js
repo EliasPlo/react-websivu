@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "@mui/material";
 
 const Yhteys = () => {
   const [name, setName] = useState('');
@@ -45,8 +46,8 @@ const Yhteys = () => {
             placeholder="Kirjoita aihe"
             />
         </label><br />
-        <button type="submit">Lähetä</button>
-        <button type="button" onClick={hadleClear}>Tyhjennä</button>
+        <Button type="submit" variant="contained" color="primary">Lähetä</Button>
+        <Button type="button" variant="contained" color="primary" onClick={hadleClear}>Tyhjennä</Button>
     </form>
     </div>
 )
