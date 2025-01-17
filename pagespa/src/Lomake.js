@@ -5,6 +5,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "@mui/material";
 import { useEffect } from "react";
 import styledui from "styled-components";
+//import Footer from "./Footer";
 
 const Lomake = () => {
     useEffect(() => {
@@ -67,7 +68,6 @@ const Lomake = () => {
       <Button variant="contained" color="info">Info</Button>
       <Button variant="contained" color="default">Default</Button>
       </div>
-
 
 
         </div>

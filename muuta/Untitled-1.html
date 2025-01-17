@@ -1,0 +1,32 @@
+<div>
+            <h2>Wiki</h2>
+            <input 
+                type="text" 
+                value={haku}
+                placeholder="Hae..."
+                onChange={(event) => setHaku(event.target.value)}
+            />
+            <button variant="contained" onClick={clearData}>Tyhjennä</button>
+            {error && <p style={{ color: "red" }}>{error}</p>}
+            {data?.[0]?.title && <h1>{data[0].title}</h1>}
+            {data?.[0]?.thumbnail && (
+                <img src={data[0].thumbnail.source} alt="Thumbnail" />
+            )}
+            {data?.[0]?.extract && <p>{data[0].extract}</p>}
+        </div>
+
+
+        <Box sx={{ bgcolor: 'background.paper', p: 1, m: 1, border: 1 }}>
+            <Typography variant="h4" component="div">
+                <Box sx={{ color: 'info.main' }}>Tervetuloa</Box>
+            </Typography>
+            <Typography variant="body1">
+            <Box sx={{ color: 'secondary.main' }}>Tähän tekstiä. Tähän tekstiä. Tähän tekstiä..</Box> 
+            </Typography>
+          </Box>
+
+          <Container>
+            <CameraSelection selectedPresetId={selectedPresetId} onSelect={cameraSelected}/>
+            
+            {selectedPresetId ? ( <CameraView presetId={selectedPresetId} />) : null}
+            </Container>
