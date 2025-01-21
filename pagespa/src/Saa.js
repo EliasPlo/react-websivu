@@ -48,11 +48,20 @@ function Saa() {
     ],
   };
 
+  // Calculate the min and max temperature dynamically
+  const temperatures = data.map((location) => location.temperature);
+  const minTemperature = Math.min(0, ...temperatures); // Minimum should include 0 if no negatives exist
+  const maxTemperature = Math.max(...temperatures);
+
   const chartOptions = {
     responsive: true,
     scales: {
       y: {
-        min: 0, // Ensure Y-axis starts at 0
+        min: minTemperature,
+        max: maxTemperature,
+        ticks: {
+          stepSize: 1, // Adjust the step size as needed
+        },
       },
     },
   };

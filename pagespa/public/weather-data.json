@@ -1,0 +1,44 @@
+{
+  "locations": [
+    { 
+      "name": "Inari", 
+      "temperature": -14
+    },
+    { 
+      "name": "Joensuu", 
+      "temperature": -5 
+    },
+    { 
+      "name": "Kuopio", 
+      "temperature": -8 
+    },
+    { 
+      "name": "Tallinna", 
+      "temperature": 10 
+    },
+    { 
+      "name": "Helsinki", 
+      "temperature": 5 
+    },
+    { 
+      "name": "Tampere", 
+      "temperature": 2 
+    },
+    { 
+      "name": "Oulu", 
+      "temperature": -1 
+    },
+    { 
+      "name": "Rovaniemi", 
+      "temperature": -10 
+    },
+    { 
+      "name": "Turku", 
+      "temperature": 3 
+    },
+    { 
+      "name": "Vaasa", 
+      "temperature": 1
+    }
+  ]
+}

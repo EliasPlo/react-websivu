@@ -53,6 +53,7 @@ const Tunniste = () => {
         <a href='http://localhost:3000/#/cam'>TieKamera</a>
         <a href="http://localhost:3000/#/wiki">WikiSearch</a>
         <a href="http://localhost:3000/#/saa">SääTiedot</a>
+        <a href="http://localhost:3000/#/news">Uutiset</a>
       </ul>
     </Navbar>
   );

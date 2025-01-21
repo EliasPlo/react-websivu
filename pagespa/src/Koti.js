@@ -39,7 +39,7 @@ const Koti = () => {
               />
               <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                  Tämä on kuva {index + 1}.
+                  kuva: {index + 1}
                 </Typography>
               </CardContent>
             </Card>

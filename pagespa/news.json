@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Uusi tutkimus paljastaa ilmastonmuutoksen vaikutukset",
+    "content": "Ilmastonmuutoksen vaikutukset näkyvät entistä selvemmin eri puolilla maailmaa. Uusi raportti osoittaa merkittävää kasvua äärimmäisissä sääilmiöissä.",
+    "fullContent": "Äskettäin julkaistu tutkimus kertoo, kuinka ilmastonmuutos kiihdyttää myrskyjä, helleaaltoja ja tulvia. Asiantuntijat korostavat tarvetta nopeille toimille kasvihuonekaasupäästöjen vähentämiseksi.",
+    "createdAt": "2025-01-21T10:00:00Z",
+    "updatedAt": "2025-01-21T10:00:00Z",
+    "imageUrl": "https://example.com/image1.jpg"
+  },
+  {
+    "title": "Paikalliset vaalit lähestyvät – äänestäjien kiinnostus kasvussa",
+    "content": "Paikallisvaalien ehdokkaat esittelevät ohjelmiaan. Äänestäjien osallistumisprosentin odotetaan olevan korkeampi kuin edellisellä kierroksella.",
+    "fullContent": "Ehdokkaat keskittyvät erityisesti kestävään kehitykseen ja taloudellisiin kysymyksiin. Alueen asukkaat ovat ilmaisseet suurta kiinnostusta erityisesti koulutus- ja terveydenhuoltokysymyksiin.",
+    "createdAt": "2025-01-21T09:30:00Z",
+    "updatedAt": "2025-01-21T09:30:00Z",
+    "imageUrl": "https://example.com/image2.jpg"
+  },
+  {
+    "title": "Teknologiayhtiö julkaisi uuden innovaation",
+    "content": "Suuri teknologiayhtiö on paljastanut uuden laitteen, joka lupaa mullistaa markkinat. Julkistustilaisuus keräsi laajan yleisön.",
+    "fullContent": "Laite yhdistää kehittyneen tekoälyn ja käyttäjäystävällisen suunnittelun. Arvostelijat odottavat sen olevan yksi vuoden merkittävimmistä keksinnöistä.",
+    "createdAt": "2025-01-21T11:00:00Z",
+    "updatedAt": "2025-01-21T11:00:00Z",
+    "imageUrl": "https://example.com/image3.jpg"
+  },
+  {
+    "title": "Urheilutähti teki uuden ennätyksen",
+    "content": "Tunnettu urheilija rikkoi ennätyksen suuressa kansainvälisessä kilpailussa. Suoritus keräsi kiitosta ympäri maailman.",
+    "fullContent": "Urheilutähden saavutusta pidetään historiallisena. Hän korosti harjoittelun ja joukkueen merkitystä saavutuksen takana.",
+    "createdAt": "2025-01-21T12:00:00Z",
+    "updatedAt": "2025-01-21T12:00:00Z",
+    "imageUrl": "https://example.com/image4.jpg"
+  },
+  {
+    "title": "Kulttuuritapahtuma houkutteli ennätysyleisön",
+    "content": "Vuotuinen kulttuurifestivaali keräsi enemmän osallistujia kuin koskaan ennen. Tapahtumassa nähtiin laaja valikoima esityksiä ja näyttelyitä.",
+    "fullContent": "Festivaalin kohokohtia olivat kansainvälisesti tunnetut taiteilijat ja innovatiiviset performanssit. Järjestäjät kertoivat olevansa tyytyväisiä tapahtuman menestykseen.",
+    "createdAt": "2025-01-21T14:00:00Z",
+    "updatedAt": "2025-01-21T14:00:00Z",
+    "imageUrl": "https://example.com/image5.jpg"
+  },
+  {
+    "title": "Talvisää aiheuttaa liikennehaasteita",
+    "content": "Runsas lumisade on vaikeuttanut liikkumista useilla alueilla. Viranomaiset kehottavat autoilijoita varovaisuuteen.",
+    "fullContent": "Monilla teillä on tapahtunut liikenneonnettomuuksia, ja julkinen liikenne on kärsinyt viivästyksistä. Sääennusteen mukaan lumi jatkuu vielä useita päiviä.",
+    "createdAt": "2025-01-21T08:00:00Z",
+    "updatedAt": "2025-01-21T08:00:00Z",
+    "imageUrl": "https://example.com/image6.jpg"
+  },
+  {
+    "title": "Terveysviranomaiset varoittavat influenssa-aallosta",
+    "content": "Tämän vuoden influenssakausi on ollut erityisen raskas. Viranomaiset kehottavat riskiryhmiä ottamaan rokotteen.",
+    "fullContent": "Sairaalat ovat raportoineet kasvavaa potilasmäärää. Oireiden nopea hoitaminen ja käsihygienia ovat tärkeitä tartuntojen vähentämiseksi.",
+    "createdAt": "2025-01-21T07:30:00Z",
+    "updatedAt": "2025-01-21T07:30:00Z",
+    "imageUrl": "https://example.com/image7.jpg"
+  },
+  {
+    "title": "Paikallinen koulu palkittiin opetuksen laadusta",
+    "content": "Koulu sai arvostetun palkinnon erinomaisista oppimistuloksistaan. Opettajien ja oppilaiden yhteistyö on ollut avain menestykseen.",
+    "fullContent": "Palkinto korostaa innovatiivisia opetusmenetelmiä ja vahvaa yhteisöllisyyttä. Vanhemmat ja oppilaat juhlivat saavutusta yhdessä koulun henkilökunnan kanssa.",
+    "createdAt": "2025-01-21T10:15:00Z",
+    "updatedAt": "2025-01-21T10:15:00Z",
+    "imageUrl": "https://example.com/image8.jpg"
+  },
+  {
+    "title": "Energia-alalla ennätysvuosi",
+    "content": "Uusiutuvan energian käyttö kasvoi merkittävästi vuonna 2024. Aurinko- ja tuulivoiman osuus energiamarkkinoilla nousi ennätyslukemiin.",
+    "fullContent": "Asiantuntijat ennustavat uusiutuvan energian kasvun jatkuvan. Sijoittajat ja yritykset ovat innoissaan alan mahdollisuuksista.",
+    "createdAt": "2025-01-21T11:30:00Z",
+    "updatedAt": "2025-01-21T11:30:00Z",
+    "imageUrl": "https://example.com/image9.jpg"
+  },
+  {
+    "title": "Matkailuala elpyy pandemian jälkeen",
+    "content": "Matkailu on jälleen kasvussa vaikeiden vuosien jälkeen. Suosituimmat matkakohteet raportoivat lisääntyneestä kävijämäärästä.",
+    "fullContent": "Matkailijoiden kiinnostus kestävään matkailuun on lisääntynyt. Monissa kohteissa panostetaan ekologisesti kestäviin vaihtoehtoihin.",
+    "createdAt": "2025-01-21T12:15:00Z",
+    "updatedAt": "2025-01-21T12:15:00Z",
+    "imageUrl": "https://example.com/image10.jpg"
+  },
+  {
+    "title": "Startup-yritys kehittää ympäristöystävällistä teknologiaa",
+    "content": "Nuori yritys on noussut otsikoihin kehittämällä uuden kierrätysteknologian, joka voi vähentää jätettä merkittävästi.",
+    "fullContent": "Yrityksen innovaatio mahdollistaa muovijätteen tehokkaan uudelleenkäytön. Teknologia on saanut tukea sekä sijoittajilta että ympäristöjärjestöiltä.",
+    "createdAt": "2025-01-21T13:00:00Z",
+    "updatedAt": "2025-01-21T13:00:00Z",
+    "imageUrl": "https://example.com/image11.jpg"
+  },
+  {
+    "title": "Taidemuseo avasi uuden näyttelyn",
+    "content": "Paikallinen taidemuseo esittelee kansainvälisesti arvostetun taiteilijan teoksia. Näyttely herättää kiinnostusta myös ulkomailla.",
+    "fullContent": "Näyttelyn teemat käsittelevät ihmisen ja luonnon välistä suhdetta. Vierailijat ovat kehuneet erityisesti näyttelyn interaktiivisia osia.",
+    "createdAt": "2025-01-21T13:30:00Z",
+    "updatedAt": "2025-01-21T13:30:00Z",
+    "imageUrl": "https://example.com/image12.jpg"
+  },
+  {
+    "title": "Kansainvälinen kriisi kiristää talouden näkymiä",
+    "content": "Geopoliittiset jännitteet vaikuttavat talouden toimijoihin. Asiantuntijat varoittavat mahdollisista vaikutuksista kansainväliseen kauppaan.",
+    "fullContent": "Tilanteen ennustetaan vaikuttavan erityisesti energiamarkkinoihin. Hallitukset etsivät ratkaisuja tilanteen vakauttamiseksi.",
+    "createdAt": "2025-01-21T14:30:00Z",
+    "updatedAt": "2025-01-21T14:30:00Z",
+    "imageUrl": "https://example.com/image13.jpg"
+  },
+  {
+    "title": "Tutkimus: Ravinnon merkitys mielenterveydelle",
+    "content": "Uusi tutkimus osoittaa, että ruokavalio vaikuttaa merkittävästi mielenterveyteen. Asiantuntijat suosittelevat ravitsemuksen huomioimista osana hoitoa.",
+    "fullContent": "Tutkimuksessa todettiin, että erityisesti tietyt ravintoaineet, kuten omega-3-rasvahapot, voivat parantaa mielialaa. Tasapainoinen ruokavalio on tärkeä osa hyvinvointia.",
+    "createdAt": "2025-01-21T15:00:00Z",
+    "updatedAt": "2025-01-21T15:00:00Z",
+    "imageUrl": "https://example.com/image14.jpg"
+  },
+  {
+    "title": "Luonnon monimuotoisuuden suojelu on kriittistä",
+    "content": "Uusi raportti korostaa luonnon monimuotoisuuden suojelemisen tärkeyttä. Ekosysteemien tasapaino on elintärkeä planeettamme tulevaisuudelle.",
+    "fullContent": "Raportissa esitetään käytännön toimenpiteitä lajien suojelemiseksi ja elinympäristöjen turvaamiseksi. Yhteistyö hallitusten ja kansalaisjärjestöjen välillä on avainasemassa.",
+    "createdAt": "2025-01-21T15:30:00Z",
+    "updatedAt": "2025-01-21T15:30:00Z",
+    "imageUrl": "https://example.com/image15.jpg"
+  }
+]

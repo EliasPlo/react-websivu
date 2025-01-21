@@ -11,8 +11,11 @@ import Lomake from "./Lomake";
 import Tunniste from "./Tunniste";
 import Wiki from "./Wiki";
 import Saa from "./Saa";
+import Uutiset from "./Uutiset";
+import NewsPanel from "./NewsPanel";
 import "./index";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement } from "chart.js";
+import NewsDetail from "./NewsDetails";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement);
 
@@ -30,6 +33,7 @@ const Main = () => {
           <li><NavLink to="/cam">TieKamera</NavLink></li>
           <li><NavLink to="/wiki">WikiSearch</NavLink></li>
           <li><NavLink to="/saa">SääTiedot</NavLink></li>
+          <li><NavLink to="/news">Uutiset</NavLink></li>
         </ul>
         <div className="content">
           <Routes>
@@ -42,6 +46,9 @@ const Main = () => {
             <Route path="/lomake" element={<Lomake />} />
             <Route path="/wiki" element={<Wiki />} />
             <Route path="/saa" element={<Saa />} />
+            <Route path="/news" element={<Uutiset />} />
+            <Route path="/news/admin" element={<NewsPanel />} />
+            <Route path="/news/:id" element={<NewsDetail />} />
           </Routes>
         </div>
         <div>
