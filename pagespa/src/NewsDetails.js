@@ -42,11 +42,17 @@ const NewsDetail = () => {
           <Typography variant="h4" gutterBottom>
             {newsItem.title}
           </Typography>
-          <Typography variant="body1" paragraph>
-            {newsItem.fullContent}
-          </Typography>
-          <Typography variant="body2" color="textSecondary">
-            Julkaisupäivämäärä: {new Date(newsItem.createdAt).toLocaleString()}
+            <Typography variant="body1" paragraph>
+              {newsItem.fullContent}
+            </Typography>
+              <Typography variant="body2" color="textSecondary">
+                <strong>Julkaisupäivämäärä: </strong> {new Date(newsItem.createdAt).toLocaleString()}
+              </Typography>
+            <Typography variant="body2" color="textSecondary" mt={1}>
+              <strong>Muokattu:</strong> {newsItem.updatedAt !== newsItem.createdAt ? new Date(newsItem.updatedAt).toLocaleString() : "Ei muokattu"}
+            </Typography>
+          <Typography variant="body2" color="textSecondary" mt={1}>
+            <strong>Tekijä:</strong> {newsItem.createdBy}
           </Typography>
           <Box mt={2}>
             <Button

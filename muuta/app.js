@@ -23,7 +23,7 @@ const App = () => {
   //   console.log('pets:', pets);
   // }, [pets])
   
-  // setPets(fetchPets())
+  /* setPets(fetchPets())
  
   let index = 0
  
@@ -42,7 +42,16 @@ const App = () => {
         <p>{index}</p>
       <Content title={pet.title} pic={pet.imageUrl}  />
       </div>
-      )}
+                        {/*item.updatedAt !== item.createdAt && (
+                          <Typography
+                            variant="body2"
+                            color="textSecondary"
+                            mt={1}
+                          >
+                            <strong>Muokattu:</strong> {formatDate(item.updatedAt)}
+                          </Typography>
+                        )*/}
+      {/*))})}
       <button onClick={addPet}>Lisää lemmikki</button>
       <ul>
         {pets.map((pet, index) => (
@@ -50,9 +59,9 @@ const App = () => {
         ))}
       </ul>
       <Footer />
-    </div>
-  );
+    </div>*/}
+/*  );
 }
 
 
-export default App;
+export default App;*/

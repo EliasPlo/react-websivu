@@ -1,0 +1,42 @@
+[
+  {
+    "latlng": {
+      "lat": 62.60971736892455,
+      "lng": 29.76754188537598
+    },
+    "text": "text",
+    "name": "namee",
+    "title": "title",
+    "createdate": "2025-01-23T10:50:41.699Z",
+    "editdate": "2025-01-23T11:11:47.061Z",
+    "editorName": "user0",
+    "id": "e0dda921-1203-42ce-8ba0-c898b684875b"
+  },
+  {
+    "latlng": {
+      "lat": 62.60202393963334,
+      "lng": 29.753959178924564
+    },
+    "text": "af txt",
+    "name": "afaaf",
+    "title": "afaf",
+    "createdate": "2025-01-23T11:13:09.724Z",
+    "editdate": "2025-01-23T11:13:09.712Z",
+    "editorName": "user0",
+    "id": "18d151fe-0297-49d6-9688-040312fbf915"
+  },
+  {
+    "latlng": {
+      "lat": 62.60749124304901,
+      "lng": 29.752006530761722
+    },
+    "text": "aa",
+    "name": "aa",
+    "title": "aa",
+    "createdate": "2025-01-23T12:00:56.445Z",
+    "editdate": "2025-01-23T12:10:17.997Z",
+    "editorName": "namee",
+    "isEditing": true,
+    "id": "0f31d428-a5af-4ff6-aedc-d71893dd6734"
+  }
+]

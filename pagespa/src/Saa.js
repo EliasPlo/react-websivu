@@ -41,7 +41,7 @@ function Saa() {
         label: "Temperature (°C)",
         data: data.length > 0 ? data.map((location) => location.temperature) : [],
         backgroundColor: data.length > 0 ? data.map((_, index) => {
-          const colors = ["#3498db", "#e74c3c", "#2ecc71", "#f39c12", "#9b59b6"];
+          const colors = ["#3498db", "#e74c3c", "#2ecc71", "#f39c12", "#9b59b6", "#34495e", "#1abc9c", "#f1c40f", "#e67e22", "#95a5a6", "#d35400", "#c0392b"];
           return colors[index % colors.length];
         }) : [],
       },

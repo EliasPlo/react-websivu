@@ -22,6 +22,7 @@ const newsSchema = new mongoose.Schema({
   content: { type: String, required: true },
   fullContent: { type: String, required: false }, // Koko sisältö
   imageUrl: { type: String, required: false }, // Kuvan URL osoite (ei pakollinen)
+  createdBy: { type: String, required: true }, // kuka loi uutisen
   createdAt: { type: Date, default: Date.now }, // Luontipäivämäärä
   updatedAt: { type: Date, default: Date.now }  // Päivitetty päivämäärä
   }
@@ -60,12 +61,18 @@ app.get("/news/:id", async (req, res) => {
 
 // Lisää uusi uutinen
 app.post("/news", async (req, res) => {
-  const { title, content, fullContent } = req.body; // Lisää fullContent
+  const { title, content, fullContent, imageUrl,createdBy } = req.body; 
+
+  if (!title || !content || !createdBy) {
+    return res.status(400).json({ message: "Otsikko, sisältö ja tekijä vaaditaan" });
+  }
+
   const newNews = new News({
     title,
     content,
     fullContent, // Tallenna fullContent
     imageUrl, // Tallenna imageUrl
+    createdBy, // Talenna kuka loi uutisen
     createdAt: new Date(),
     updatedAt: new Date(),
   });
@@ -81,13 +88,13 @@ app.post("/news", async (req, res) => {
 
 // Päivitä uutinen
 app.put("/news/:id", async (req, res) => {
-  const { title, content, fullContent, imageUrl } = req.body; // Lisää fullContent
+  const { title, content, fullContent, imageUrl, createdBy } = req.body; 
   const { id } = req.params;
 
   try {
     const updatedNews = await News.findByIdAndUpdate(
       id,
-      { title, content, fullContent, imageUrl, updatedAt: new Date() }, // Päivitä fullContent
+      { title, content, fullContent, imageUrl, createdBy, updatedAt: new Date() },
       { new: true }
     );
     res.json(updatedNews);
@@ -113,5 +120,6 @@ app.delete("/news/:id", async (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Palvelin käynnistyi portissa ${PORT}`);
+  console.log(`http://localhost:${PORT}/news`);
 });
  

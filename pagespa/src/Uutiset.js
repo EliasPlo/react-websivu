@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Typography, Card, CardContent, CardActions, CardMedia, Container, Box, Button } from "@mui/material";
+import { Typography, Card, CardContent, CardActions, CardMedia, Container, Box, Button, TextField } from "@mui/material";
+//import { set } from "mongoose";
 
 const Uutiset = () => {
   const [news, setNews] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     fetchNews();
@@ -23,6 +25,15 @@ const Uutiset = () => {
     return `${d.getDate()}.${d.getMonth() + 1}.${d.getFullYear()}`;
   };
 
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredNews = news.filter((item) => 
+    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    item.content.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <Container>
       <Box my={4}>
@@ -33,8 +44,19 @@ const Uutiset = () => {
           </Button>
         </Box>
 
+        <Box my={2} display="flex" justifyContent="center">
+          <TextField
+            label="Hae uutisia"
+            variant="outlined"
+            value={searchTerm}
+            onChange={handleSearch}
+            fullWidth
+            sx={{ maxWidth: 400 }}
+          />
+        </Box>
+
         <Box mt={4}>
-          {news.map((item) => (
+          {filteredNews.map((item) => (
             <Card key={item._id} sx={{ marginBottom: 3, boxShadow: 3 }}>
               {/* Näytetään kuva vain, jos imageUrl on määritetty */}
               {item.imageUrl && (
@@ -60,6 +82,9 @@ const Uutiset = () => {
                     <strong>Muokattu:</strong> {formatDate(item.updatedAt)}
                   </Typography>
                 )}
+                <Typography variant="body2" color="textSecondary" mt={1}>
+                  <strong>Tekijä:</strong> {item.createdBy}
+                </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" href={`#/news/${item._id}`}>Lue lisää</Button>

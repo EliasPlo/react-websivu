@@ -7,7 +7,7 @@ import Yhteys from "./Yhteys";
 import Video from "./Video";
 //import Footer from "./Footer";
 import TieKamera from "./TieKamera";
-import Lomake from "./Lomake"; 
+//import Lomake from "./Lomake"; 
 import Tunniste from "./Tunniste";
 import Wiki from "./Wiki";
 import Saa from "./Saa";
@@ -16,6 +16,7 @@ import NewsPanel from "./NewsPanel";
 import "./index";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement } from "chart.js";
 import NewsDetail from "./NewsDetails";
+import KarttaMerkit from "./KarttaMerkit";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement);
 
@@ -43,12 +44,17 @@ const Main = () => {
             <Route path="/kartta" element={<Kartta />} />
             <Route path="/video" element={<Video />} />
             <Route path="/cam" element={<TieKamera />} />
-            <Route path="/lomake" element={<Lomake />} />
             <Route path="/wiki" element={<Wiki />} />
             <Route path="/saa" element={<Saa />} />
             <Route path="/news" element={<Uutiset />} />
             <Route path="/news/admin" element={<NewsPanel />} />
             <Route path="/news/:id" element={<NewsDetail />} />
+            <Route path="/news/:id/edit" element={<NewsDetail />} />
+            <Route path="/news/:id/delete" element={<NewsDetail />} />
+            <Route path="/news/:id/preview" element={<NewsDetail />} />
+            <Route path="/news/:id/publish" element={<NewsDetail />} />
+            <Route path="/news/:id/unpublish" element={<NewsDetail />} />
+            <Route path="/kartta/info" element={<KarttaMerkit />} />
           </Routes>
         </div>
         <div>

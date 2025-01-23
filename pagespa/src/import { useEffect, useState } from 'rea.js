@@ -77,7 +77,7 @@ const Kartta = () => {
 
     const deleteMarker = async (id) => {
         try {
-            await axios.delete(`http://localhost:3001/api/markers/${id}`);
+            await axios.delete(http://localhost:3001/api/markers/${id});
             setMarkers((prevMarkers) => prevMarkers.filter((marker) => marker.id !== id));
         } catch (error) {
             console.error('Virhe merkinnän poistamisessa:', error);
@@ -172,4 +172,5 @@ const Kartta = () => {
     );
 };
 
-export default Kartta;
+export default Kartta; 
+lisää muokkaa nappi josta tulee näkyviin tekstikentät ja kun painaa tallenna nappia niin kentät hävivät ja tulee mitä on jo luotu eli muokkaajan nimen kysyley pop up

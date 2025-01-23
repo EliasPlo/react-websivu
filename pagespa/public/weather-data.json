@@ -39,6 +39,106 @@
     { 
       "name": "Vaasa", 
       "temperature": 1
+    }, 
+    { 
+      "name": "Jyväskylä", 
+      "temperature": -3 
+    },
+    { 
+      "name": "Kajaani", 
+      "temperature": -6 
+    },
+    { 
+      "name": "Kokkola", 
+      "temperature": 0.5 
+    },
+    { 
+      "name": "Kotka", 
+      "temperature": 4 
+    },
+    { 
+      "name": "Lahti", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Lappeenranta", 
+      "temperature": 1
+    },
+    { 
+      "name": "Mikkeli", 
+      "temperature": -2 
+    },
+    { 
+      "name": "Pori", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Savonlinna", 
+      "temperature": -3 
+    },
+    { 
+      "name": "Seinäjoki", 
+      "temperature": 0.1
+    },
+    { 
+      "name": "Varkaus", 
+      "temperature": -2 
+    }, 
+    { 
+      "name": "Hämeenlinna", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Kouvola", 
+      "temperature": 2 
+    },
+    { 
+      "name": "Kuusamo", 
+      "temperature": -12 
+    },
+    { 
+      "name": "Lohja", 
+      "temperature": 2 
+    },
+    { 
+      "name": "Nokia", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Porvoo", 
+      "temperature": 3 
+    },
+    { 
+      "name": "Rauma", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Riihimäki", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Salo", 
+      "temperature": 2 
+    },
+    { 
+      "name": "Tornio", 
+      "temperature": -5 
+    },
+    { 
+      "name": "Uusikaupunki", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Valkeakoski", 
+      "temperature": 1 
+    },
+    { 
+      "name": "Ylivieska", 
+      "temperature": -2 
+    },
+    { 
+      "name": "Äänekoski", 
+      "temperature": -3 
     }
   ]
 }
