@@ -24,9 +24,16 @@ const newsSchema = new mongoose.Schema({
   imageUrl: { type: String, required: false }, // Kuvan URL osoite (ei pakollinen)
   createdBy: { type: String, required: true }, // kuka loi uutisen
   createdAt: { type: Date, default: Date.now }, // Luontipäivämäärä
-  updatedAt: { type: Date, default: Date.now }  // Päivitetty päivämäärä
-  }
-);
+  updatedAt: { type: Date, default: Date.now }, // Päivitetty päivämäärä
+  comments: [   // Kommentit                  
+    {
+      username: { type: String, required: false }, // Kuka kommentoi
+      text: { type: String, required: true },
+      createdAt: { type: Date, default: Date.now },
+    },
+  ],
+  tags: { type: [String], required: false }, // Tagit
+});
 
 const News = mongoose.model("News", newsSchema);
 
@@ -58,10 +65,22 @@ app.get("/news/:id", async (req, res) => {
   }
 });
 
+// Hae uutiset tietyllä tagilla
+app.get("/news/tags/:tag", async (req, res) => {
+  const { tag } = req.params;
+  
+  try {
+    const news = await News.find({ tags: tag });
+    res.json(news);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 
 // Lisää uusi uutinen
 app.post("/news", async (req, res) => {
-  const { title, content, fullContent, imageUrl,createdBy } = req.body; 
+  const { title, content, fullContent, imageUrl, createdBy, tags } = req.body; 
 
   if (!title || !content || !createdBy) {
     return res.status(400).json({ message: "Otsikko, sisältö ja tekijä vaaditaan" });
@@ -75,6 +94,7 @@ app.post("/news", async (req, res) => {
     createdBy, // Talenna kuka loi uutisen
     createdAt: new Date(),
     updatedAt: new Date(),
+    tags: tags || [], // Tallenna tagit
   });
 
   try {
@@ -85,16 +105,42 @@ app.post("/news", async (req, res) => {
   }
 });
 
+app.post("/news/:id/comments", async (req, res) => {
+  const { id } = req.params;
+  const { comment, username } = req.body; // Oletetaan, että body:ssä on 'username' kenttä
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ message: "Virheellinen ID" });
+  }
+
+  try {
+    const newsItem = await News.findById(id);
+    if (!newsItem) {
+      return res.status(404).json({ message: "Uutista ei löytynyt" });
+    }
+
+    // Jos käyttäjänimi on tyhjä, käytetään 'Anonyymi'
+    const userNameToUse = username && username.trim() !== "" ? username : "Anonyymi";
+
+    // Lisää kommentti ja käyttäjänimi
+    newsItem.comments.push({ text: comment, createdAt: new Date(), username: userNameToUse });
+    await newsItem.save();
+
+    res.status(201).json({ message: "Kommentti lisätty!" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
 
 // Päivitä uutinen
 app.put("/news/:id", async (req, res) => {
-  const { title, content, fullContent, imageUrl, createdBy } = req.body; 
+  const { title, content, fullContent, imageUrl, createdBy, tags } = req.body; 
   const { id } = req.params;
 
   try {
     const updatedNews = await News.findByIdAndUpdate(
       id,
-      { title, content, fullContent, imageUrl, createdBy, updatedAt: new Date() },
+      { title, content, fullContent, imageUrl, createdBy, tags, updatedAt: new Date() },
       { new: true }
     );
     res.json(updatedNews);
@@ -103,7 +149,6 @@ app.put("/news/:id", async (req, res) => {
   }
 });
 
-
 // Poista uutinen
 app.delete("/news/:id", async (req, res) => {
   const { id } = req.params;
@@ -111,6 +156,54 @@ app.delete("/news/:id", async (req, res) => {
   try {
     await News.findByIdAndDelete(id);
     res.json({ message: "Uutinen poistettu!" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.delete("/news/:id/comments", async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ message: "Virheellinen ID" });
+  }
+
+  try {
+    const newsItem = await News.findById(id);
+    if (!newsItem) {
+      return res.status(404).json({ message: "Uutista ei löytynyt" });
+    }
+
+    newsItem.comments = []; // Tyhjennetään kommentit
+    await newsItem.save();
+
+    res.json({ message: "Kaikki kommentit poistettu!" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Poista yksittäinen kommentti
+app.delete("/news/:id/comments/:commentId", async (req, res) => {
+  const { id, commentId } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id) || !mongoose.Types.ObjectId.isValid(commentId)) {
+    return res.status(400).json({ message: "Virheellinen ID" });
+  }
+
+  try {
+    const newsItem = await News.findById(id);
+    if (!newsItem) {
+      return res.status(404).json({ message: "Uutista ei löytynyt" });
+    }
+
+    // Poista tietty kommentti
+    newsItem.comments = newsItem.comments.filter(
+      (comment) => comment._id.toString() !== commentId
+    );
+    await newsItem.save();
+
+    res.json({ message: "Kommentti poistettu!" });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

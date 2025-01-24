@@ -1,0 +1,19 @@
+[
+  {
+    "title": "",
+    "content": "",
+    "fullContent": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "createdBy": "",
+    "imageUrl": "",
+    "comments": [
+      {
+        "username": "",
+        "text": "",
+        "createdAt": ""
+      }
+    ],
+    "tags": []
+  }
+]

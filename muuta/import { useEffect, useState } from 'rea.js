@@ -173,4 +173,3 @@ const Kartta = () => {
 };
 
 export default Kartta; 
-lisää muokkaa nappi josta tulee näkyviin tekstikentät ja kun painaa tallenna nappia niin kentät hävivät ja tulee mitä on jo luotu eli muokkaajan nimen kysyley pop up

@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "679361a0be89513bea867cea",
+    "title": "Uusi tutkimus paljastaa ilmastonmuutoksen vaikutukset",
+    "content": "Ilmastonmuutoksen vaikutukset näkyvät entistä selvemmin eri puolilla maailmaa. Uusi raportti osoittaa merkittävää kasvua äärimmäisissä sääilmiöissä.",
+    "fullContent": "Äskettäin julkaistu tutkimus kertoo, kuinka ilmastonmuutos kiihdyttää myrskyjä, helleaaltoja ja tulvia. Asiantuntijat korostavat tarvetta nopeille toimille kasvihuonekaasupäästöjen vähentämiseksi.",
+    "createdAt": "2025-01-21T10:00:00.000Z",
+    "updatedAt": "2025-01-24T08:35:24.654Z",
+    "createdBy": "user11",
+    "imageUrl": "https://kuviasuomesta.fi/wp-content/uploads/2020/08/tyyni-j%C3%A4rvi-kuviasuomesta.fi-roine-piirainen.jpg",
+    "comments": [
+      {
+        "username": "username",
+        "text": "comment text, user comment",
+        "createdAt": "2025-01-24T07:26:15.087Z",
+        "_id": "679340978d834927889d1965"
+      },
+      {
+        "username": "username 2",
+        "text": "comment text2, user comment2",
+        "createdAt": "2025-01-24T07:31:42.112Z",
+        "_id": "679341de8d834927889d196b"
+      }
+    ],
+    "tags": [
+      "tiede",
+      "tutkimus"
+    ]
+  },
+  {
+    "_id": "679361a0be89513bea867ceb",
+    "title": "Paikalliset vaalit lähestyvät – äänestäjien kiinnostus kasvussa",
+    "content": "Paikallisvaalien ehdokkaat esittelevät ohjelmiaan. Äänestäjien osallistumisprosentin odotetaan olevan korkeampi kuin edellisellä kierroksella.",
+    "fullContent": "Ehdokkaat keskittyvät erityisesti kestävään kehitykseen ja taloudellisiin kysymyksiin. Alueen asukkaat ovat ilmaisseet suurta kiinnostusta erityisesti koulutus- ja terveydenhuoltokysymyksiin.",
+    "createdAt": "2025-01-21T09:30:00.000Z",
+    "updatedAt": "2025-01-24T08:34:54.089Z",
+    "createdBy": "uutisankkuri1234",
+    "imageUrl": "https://vaalit.fi/documents/5430845/5494851/Vaalit.fi_herokuva_2.jpg/157d0ee3-f890-4d26-fa42-8b3131768ef0?t=1703149378321",
+    "tags": [
+      "vaalit",
+      "koulutus",
+      "tiede"
+    ],
+    "comments": []
+  },
+  {
+    "title": "AI mullistaa ohjelmistokehityksen",
+    "content": "Tekoälyn uudet työkalut nopeuttavat ohjelmistokehitystä jopa 50%.",
+    "fullContent": "Uusimmat tekoälypohjaiset ohjelmistotyökalut lupaavat vähentää ohjelmistokehitykseen kuluvaa aikaa merkittävästi. Monet yritykset ovat jo ottaneet käyttöönsä näitä innovaatioita.",
+    "createdAt": "2025-01-20",
+    "updatedAt": "2025-01-22",
+    "createdBy": "teknologiatoimittaja",
+    "imageUrl": "https://example.com/images/ai-ohjelmointi.jpg",
+    "comments": [
+      {
+        "username": "koodari123",
+        "text": "Tämä tulee varmasti muuttamaan alaa.",
+        "createdAt": "2025-01-22"
+      },
+      {
+        "username": "tekoälyfani",
+        "text": "Ehdottomasti kiinnostava kehitys!",
+        "createdAt": "2025-01-23"
+      }
+    ],
+    "tags": ["tekoäly", "ohjelmointi", "innovaatio"]
+  },
+  {
+    "title": "Python 4.0 julkaistaan tänä vuonna",
+    "content": "Pythonin seuraava suuri versio tuo mukanaan merkittäviä parannuksia.",
+    "fullContent": "Python 4.0:n odotetaan sisältävän uusia ominaisuuksia, kuten tehokkaamman suorituskyvyn ja uuden syntaksin, joka helpottaa monimutkaisten ohjelmien kirjoittamista.",
+    "createdAt": "2025-01-18",
+    "updatedAt": "2025-01-19",
+    "createdBy": "ohjelmistouutiset",
+    "imageUrl": "https://example.com/images/python-logo.jpg",
+    "comments": [],
+    "tags": ["python", "ohjelmointikielet", "kehitys"]
+  },
+  {
+    "title": "Suosittu JavaScript-kirjasto päivitetty",
+    "content": "Reactin uusi versio parantaa suorituskykyä merkittävästi.",
+    "fullContent": "React 19.0 tuo mukanaan useita suorituskykyparannuksia sekä uusia ominaisuuksia kehittäjille. Lisäksi kirjasto sisältää paremman tuen server-side-renderingille.",
+    "createdAt": "2025-01-15",
+    "updatedAt": "2025-01-15",
+    "createdBy": "frontend-kehittäjä",
+    "imageUrl": "https://example.com/images/react-update.jpg",
+    "comments": [
+      {
+        "username": "dev_guru",
+        "text": "Päivitys vaikuttaa lupaavalta!",
+        "createdAt": "2025-01-16"
+      }
+    ],
+    "tags": ["React", "JavaScript", "web-kehitys"]
+  },
+  {
+    "title": "Koneoppiminen tekee läpimurron terveydenhuollossa",
+    "content": "Uusi algoritmi pystyy diagnosoimaan syövän aiempaa tarkemmin.",
+    "fullContent": "Tutkijat ovat kehittäneet koneoppimismallin, joka parantaa syövän diagnosointia merkittävästi. Malli hyödyntää suuria määriä dataa ja neuroverkkoja.",
+    "createdAt": "2025-01-10",
+    "updatedAt": "2025-01-12",
+    "createdBy": "terveysuutiset",
+    "imageUrl": "https://example.com/images/ai-healthcare.jpg",
+    "comments": [
+      {
+        "username": "healthtech_asiantuntija",
+        "text": "Mielenkiintoinen kehitysaskel!",
+        "createdAt": "2025-01-12"
+      },
+      {
+        "username": "tiedeintoilija",
+        "text": "Tekoäly todella pelastaa henkiä.",
+        "createdAt": "2025-01-13"
+      },
+      {
+        "username": "skeptikko",
+        "text": "Miten tämä toimii käytännössä?",
+        "createdAt": "2025-01-14"
+      }
+    ],
+    "tags": ["tekoäly", "terveys", "koneoppiminen"]
+  },
+  {
+    "title": "5G-verkon nopeus yllätti",
+    "content": "Testit osoittavat, että 5G toimii jopa 10 kertaa nopeammin kuin 4G.",
+    "fullContent": "5G-teknologian laajentuminen tuo mukanaan nopeammat yhteydet, mikä mahdollistaa uudenlaisia sovelluksia, kuten reaaliaikaisen VR:n ja AR:n.",
+    "createdAt": "2025-01-05",
+    "updatedAt": "2025-01-06",
+    "createdBy": "viestintäasiantuntija",
+    "imageUrl": "https://example.com/images/5g.jpg",
+    "comments": [],
+    "tags": ["5G", "verkkoteknologia"]
+  },
+  {
+    "title": "Pilvipalvelujen käyttö kasvaa yhä",
+    "content": "Pilvipalvelut ovat suosituimpia kuin koskaan.",
+    "fullContent": "Yritykset siirtyvät yhä enemmän pilveen sen tarjoaman joustavuuden ja skaalautuvuuden vuoksi. AWS, Google Cloud ja Azure hallitsevat markkinoita.",
+    "createdAt": "2025-01-04",
+    "updatedAt": "2025-01-07",
+    "createdBy": "pilviteknologiatoimittaja",
+    "imageUrl": "https://example.com/images/cloud.jpg",
+    "comments": [],
+    "tags": []
+  },
+  {
+    "title": "Robotit työpaikoilla: Hyvä vai huono asia?",
+    "content": "Robotiikan kasvu herättää keskustelua työn tulevaisuudesta.",
+    "fullContent": "Uudet teollisuusrobotit ovat tehokkaampia kuin koskaan, mutta herättävät myös huolta työpaikkojen vähenemisestä.",
+    "createdAt": "2025-01-03",
+    "updatedAt": "2025-01-03",
+    "createdBy": "teollisuusuutiset",
+    "imageUrl": "https://example.com/images/robots.jpg",
+    "comments": [
+      {
+        "username": "insinööri99",
+        "text": "Robotit ovat osa tulevaisuutta.",
+        "createdAt": "2025-01-04"
+      },
+      {
+        "username": "huolestunut_työntekijä",
+        "text": "Mitä tämä tarkoittaa meille ihmisille?",
+        "createdAt": "2025-01-05"
+      }
+    ],
+    "tags": ["robotiikka", "teknologia", "työelämä"]
+  },
+  {
+    "title": "Quantum-tietokoneiden kehitys kiihtyy",
+    "content": "IBM ja Google investoivat kvanttitietokoneisiin.",
+    "fullContent": "Kvanttilaskennan odotetaan mullistavan tietojenkäsittelyn, erityisesti turvallisuusalalla ja suurten tietomäärien analysoinnissa.",
+    "createdAt": "2025-01-02",
+    "updatedAt": "2025-01-02",
+    "createdBy": "kvanttiuutiset",
+    "imageUrl": "https://example.com/images/quantum.jpg",
+    "comments": [
+      {
+        "username": "fysiikka_nero",
+        "text": "Tämä on vain alkua!",
+        "createdAt": "2025-01-03"
+      }
+    ],
+    "tags": ["kvanttiteknologia", "tulevaisuus"]
+  },
+  {
+    "title": "Uusi JavaScript-framework lanseerattu",
+    "content": "SvelteKit haastaa Reactin ja Vuen.",
+    "fullContent": "SvelteKit on uusi JavaScript-pohjainen framework, joka lupaa helpottaa web-kehitystä ja parantaa suorituskykyä.",
+    "createdAt": "2025-01-01",
+    "updatedAt": "2025-01-02",
+    "createdBy": "webuutiset",
+    "imageUrl": "https://example.com/images/sveltekit.jpg",
+    "comments": [],
+    "tags": ["JavaScript", "frameworkit"]
+  },
+  {
+    "title": "Tietoturva-aukko Windowsissa",
+    "content": "Windows 11:stä löytyi kriittinen tietoturva-aukko.",
+    "fullContent": "Microsoft on julkaissut päivityksen, joka korjaa vakavan haavoittuvuuden Windows 11 -käyttöjärjestelmässä.",
+    "createdAt": "2025-01-01",
+    "updatedAt": "2025-01-02",
+    "createdBy": "cybernews",
+    "imageUrl": "https://example.com/images/windows-security.jpg",
+    "comments": [
+      {
+        "username": "cyber_guru",
+        "text": "Onneksi tämä korjattiin nopeasti.",
+        "createdAt": "2025-01-02"
+      }
+    ],
+    "tags": ["tietoturva", "Windows", "haavoittuvuus"]
+  }
+]

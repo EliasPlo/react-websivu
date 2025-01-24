@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Uusi tutkimus paljastaa ilmastonmuutoksen vaikutukset",
+    "content": "Ilmastonmuutoksen vaikutukset näkyvät entistä selvemmin eri puolilla maailmaa. Uusi raportti osoittaa merkittävää kasvua äärimmäisissä sääilmiöissä.",
+    "fullContent": "Äskettäin julkaistu tutkimus kertoo, kuinka ilmastonmuutos kiihdyttää myrskyjä, helleaaltoja ja tulvia. Asiantuntijat korostavat tarvetta nopeille toimille kasvihuonekaasupäästöjen vähentämiseksi.",
+    "createdAt": "2025-01-21T10:00:00.000Z",
+    "updatedAt": "2025-01-24T08:35:24.654Z",
+    "createdBy": "user11",
+    "imageUrl": "https://kuviasuomesta.fi/wp-content/uploads/2020/08/tyyni-j%C3%A4rvi-kuviasuomesta.fi-roine-piirainen.jpg",
+    "comments": [
+      {
+        "username": "username",
+        "text": "comment text, user comment",
+        "createdAt": "2025-01-24T07:26:15.087Z",
+        "_id": "679340978d834927889d1965"
+      },
+      {
+        "username": "username 2",
+        "text": "comment text2, user comment2",
+        "createdAt": "2025-01-24T07:31:42.112Z",
+        "_id": "679341de8d834927889d196b"
+      }
+    ],
+    "tags": [
+      "tiede",
+      "tutkimus"
+    ]
+  },
+  {
+    "title": "Paikalliset vaalit lähestyvät – äänestäjien kiinnostus kasvussa",
+    "content": "Paikallisvaalien ehdokkaat esittelevät ohjelmiaan. Äänestäjien osallistumisprosentin odotetaan olevan korkeampi kuin edellisellä kierroksella.",
+    "fullContent": "Ehdokkaat keskittyvät erityisesti kestävään kehitykseen ja taloudellisiin kysymyksiin. Alueen asukkaat ovat ilmaisseet suurta kiinnostusta erityisesti koulutus- ja terveydenhuoltokysymyksiin.",
+    "createdAt": "2025-01-21T09:30:00.000Z",
+    "updatedAt": "2025-01-24T08:34:54.089Z",
+    "createdBy": "uutisankkuri1234",
+    "imageUrl": "https://vaalit.fi/documents/5430845/5494851/Vaalit.fi_herokuva_2.jpg/157d0ee3-f890-4d26-fa42-8b3131768ef0?t=1703149378321",
+    "tags": [
+      "vaalit",
+      "koulutus",
+      "tiede"
+    ],
+    "comments": []
+  },
+  {
+    "title": "Uusi teknologinen läpimurto tekoälyssä",
+    "content": "Tekoälyn kehitys on ottanut suuria askeleita. Uusi algoritmi mahdollistaa entistä tehokkaamman datan analysoinnin.",
+    "fullContent": "Uusi tekoälyalgoritmi on kehitetty, ja se pystyy analysoimaan valtavia datamääriä huomattavasti nopeammin ja tarkemmin kuin aiemmat mallit. Tämä voi mullistaa monia aloja, kuten terveydenhuollon, talouden ja ympäristötutkimuksen.",
+    "createdAt": "2025-01-24T10:00:00Z",
+    "updatedAt": "2025-01-24T12:00:00Z",
+    "createdBy": "Teknologiatoimittaja",
+    "imageUrl": "hhttp://localhost:3000/static/media/kuva2.a3c202c1316fac8957a2.jpg",
+    "tags": ["tekoäly", "teknologia", "innovaatio"],
+    "comments": [
+      { "user": "Matti", "comment": "Tämä on todella mielenkiintoista!" },
+      { "user": "Liisa", "comment": "Onko tämä käytännössä jo toimivaa?" }
+    ]
+  },
+  {
+    "title": "Suomi voitti jääkiekon MM-kultaa",
+    "content": "Suomi voitti jääkiekon MM-kultaa jännittävässä finaalissa Ruotsia vastaan.",
+    "fullContent": "Joukkueen upea suoritus sai koko Suomen juhlimaan. Finaalissa Suomi oli vahvempi, ja voitto tuli jatkoajalla.",
+    "createdAt": "2025-01-24T08:30:00Z",
+    "updatedAt": "2025-01-24T09:00:00Z",
+    "createdBy": "Urheilutoimittaja",
+    "imageUrl": "https://example.com/finland-hockey-gold.jpg",
+    "tags": ["jääkiekko", "Suomi", "MM-kulta"],
+    "comments": []
+  },
+  {
+    "title": "Helsinki lanseerasi uuden julkisen liikennejärjestelmän",
+    "content": "Helsingissä otettiin käyttöön uusi ekologinen julkinen liikennejärjestelmä.",
+    "fullContent": "Uusi liikennejärjestelmä yhdistää bussit, ratikat ja metrot entistä tehokkaammin. Sen avulla pyritään vähentämään liikenteen päästöjä ja parantamaan matkustajien kokemusta.",
+    "createdAt": "2025-01-23T14:45:00Z",
+    "updatedAt": "2025-01-23T15:00:00Z",
+    "createdBy": "Kaupunkitoimittaja",
+    "imageUrl": "https://example.com/helsinki-transport.jpg",
+    "tags": ["Helsinki", "liikenne", "ekologia"],
+    "comments": [
+      { "user": "Anni", "comment": "Tämä on hieno askel kohti vihreämpää tulevaisuutta!" }
+    ]
+  },
+  {
+    "title": "Suosittu elokuva saa jatko-osan",
+    "content": "Elokuvan jatko-osa on virallisesti ilmoitettu ja se saa ensi-iltansa syksyllä.",
+    "fullContent": "Elokuvan ohjaaja kertoi, että jatko-osa tulee jatkamaan ensimmäisen osan tarinaa, mutta samalla myös tuo uusia elementtejä ja hahmoja. Fanit ovat innoissaan.",
+    "createdAt": "2025-01-22T17:00:00Z",
+    "updatedAt": "2025-01-22T17:30:00Z",
+    "createdBy": "Elokuvatoimittaja",
+    "imageUrl": "https://example.com/movie-sequel.jpg",
+    "tags": ["elokuvat", "jatko-osa", "uutiset"],
+    "comments": [
+      { "user": "Pekka", "comment": "En malta odottaa!" },
+      { "user": "Jonna", "comment": "Miten tämä tulee erottumaan edellisestä osasta?" }
+    ]
+  },
+  {
+    "title": "Mielenkiintoisia tutkimustuloksia ilmastonmuutoksesta",
+    "content": "Uusi tutkimus tuo esiin huolestuttavia tietoja ilmastonmuutoksen nopeutumisesta.",
+    "fullContent": "Ilmastonmuutoksen vaikutukset tuntuvat jo monilla alueilla. Tutkimuksen mukaan lämpeneminen on kiihtynyt ja se tulee vaikuttamaan maailman ekosysteemeihin merkittävästi.",
+    "createdAt": "2025-01-21T16:20:00Z",
+    "updatedAt": "2025-01-21T16:50:00Z",
+    "createdBy": "Tiedetoimittaja",
+    "imageUrl": "https://example.com/climate-change.jpg",
+    "tags": ["ilmastonmuutos", "tiede", "ympäristö"],
+    "comments": []
+  },
+  {
+    "title": "Vähemmistöjen oikeudet nousevat esiin kansainvälisissä neuvotteluissa",
+    "content": "Kansainvälisissä keskusteluissa on nostettu esiin vähemmistöjen oikeudet ja tasa-arvo.",
+    "fullContent": "Monet maat ovat allekirjoittaneet uuden sopimuksen, joka tuo lisää suojaa vähemmistöille ja parantaa heidän elinolojaan.",
+    "createdAt": "2025-01-20T12:15:00Z",
+    "updatedAt": "2025-01-20T12:30:00Z",
+    "createdBy": "Politiikantoimittaja",
+    "imageUrl": "https://example.com/minority-rights.jpg",
+    "tags": ["vähemmistöt", "tasa-arvo", "politiikka"],
+    "comments": [
+      { "user": "Sari", "comment": "On hienoa, että tämä asia saa nyt enemmän huomiota." },
+      { "user": "Jari", "comment": "Toivottavasti tämä tuo todellista muutosta." }
+    ]
+  },
+  {
+    "title": "Pohjoismaat yhteistyöhön ilmastonmuutoksen torjunnassa",
+    "content": "Pohjoismaat ovat päättäneet tiivistää yhteistyötään ilmastonmuutoksen torjunnassa.",
+    "fullContent": "Tavoitteena on kehittää uusia teknologioita ja jakaa tietoa, jotta alueen maat voivat toimia yhteisesti ilmastonmuutoksen hillitsemiseksi.",
+    "createdAt": "2025-01-19T09:00:00Z",
+    "updatedAt": "2025-01-19T09:10:00Z",
+    "createdBy": "Politiikantoimittaja",
+    "imageUrl": "https://example.com/nordic-climate.jpg",
+    "tags": ["Pohjoismaat", "ilmastonmuutos", "yhteistyö"],
+    "comments": [
+      { "user": "Tomi", "comment": "Tämä on todella tärkeää työtä!" }
+    ]
+  },
+  {
+    "title": "Maailman talousnäkymät vuodelle 2025",
+    "content": "Talouden asiantuntijat arvioivat maailman talouden tilan vuonna 2025.",
+    "fullContent": "Asiantuntijat uskovat, että talous tulee kasvamaan maltillisesti, mutta haasteita on edelleen, erityisesti kehittyvissä maissa.",
+    "createdAt": "2025-01-18T11:40:00Z",
+    "updatedAt": "2025-01-18T12:00:00Z",
+    "createdBy": "Taloustoimittaja",
+    "imageUrl": "https://example.com/economy-2025.jpg",
+    "tags": ["talous", "maailma", "ennusteet"],
+    "comments": []
+  },
+  {
+    "title": "Suosittu ravintola laajentaa toimintaansa",
+    "content": "Suosittu ravintola avaa uuden filiaalin Helsingin keskustaan.",
+    "fullContent": "Ravintola on tunnettu erinomaisista ruoistaan ja hyvästä palvelustaan, ja sen laajentaminen saattaa tuoda lisää asiakkaita.",
+    "createdAt": "2025-01-17T15:20:00Z",
+    "updatedAt": "2025-01-17T15:45:00Z",
+    "createdBy": "Ravintolatoimittaja",
+    "imageUrl": "https://example.com/restaurant-expansion.jpg",
+    "tags": ["ravintola", "Helsinki", "laajentaminen"],
+    "comments": [
+      { "user": "Kalle", "comment": "Hienoa, että ravintola kasvaa!" },
+      { "user": "Marja", "comment": "Tämä on todella hyvä uutinen." }
+    ]
+  },
+  {
+    "title": "Uusi tutkimus paljastaa, kuinka liikkuminen vaikuttaa terveyteen",
+    "content": "Uusi tutkimus osoittaa, että päivittäinen liikunta voi parantaa merkittävästi elämänlaatua.",
+    "fullContent": "Tutkimuksessa todetaan, että säännöllinen liikunta vähentää sairauksien riskiä ja parantaa mielialaa.",
+    "createdAt": "2025-01-16T13:30:00Z",
+    "updatedAt": "2025-01-16T13:45:00Z",
+    "createdBy": "Tiedetoimittaja",
+    "imageUrl": "https://example.com/exercise-health.jpg",
+    "tags": ["liikunta", "terveys", "tutkimus"],
+    "comments": []
+  },
+  {
+    "title": "Lähes kaikki suomalaiset kokevat ilmastonmuutoksen vaikutukset",
+    "content": "Uusi tutkimus paljastaa, että suurin osa suomalaisista kokee ilmastonmuutoksen vaikutuksia omassa elämässään.",
+    "fullContent": "Tutkimuksessa todettiin, että monet kokevat sään ääri-ilmiöiden olevan yhä yleisempiä ja vaarallisempia.",
+    "createdAt": "2025-01-15T11:00:00Z",
+    "updatedAt": "2025-01-15T11:30:00Z",
+    "createdBy": "Tiedetoimittaja",
+    "imageUrl": "https://example.com/climate-impact-finland.jpg",
+    "tags": ["ilmastonmuutos", "Suomi", "tutkimus"],
+    "comments": [
+      { "user": "Hanna", "comment": "Tämä on huolestuttavaa." }
+    ]
+  },
+  {
+    "title": "Uusi digitaalinen työkalu auttaa yrittäjiä hallitsemaan yritystään",
+    "content": "Yrittäjille on kehitetty uusi digitaalinen työkalu, joka helpottaa liiketoiminnan hallintaa.",
+    "fullContent": "Työkalu tarjoaa yrityksille kattavat analyysit ja raportit, jotka auttavat päätöksenteossa ja kasvun edistämisessä.",
+    "createdAt": "2025-01-14T10:25:00Z",
+    "updatedAt": "2025-01-14T10:40:00Z",
+    "createdBy": "Yritystoimittaja",
+    "imageUrl": "https://example.com/business-tool.jpg",
+    "tags": ["yrittäjyys", "digitaaliset työkalut", "innovaatio"],
+    "comments": []
+  }
+]
