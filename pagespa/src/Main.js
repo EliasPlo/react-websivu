@@ -13,7 +13,7 @@ import Wiki from "./Wiki";
 import Saa from "./Saa";
 import Uutiset from "./Uutiset";
 import NewsPanel from "./NewsPanel";
-import "./index";
+import ContactList from "./ContactList";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement } from "chart.js";
 import NewsDetail from "./NewsDetails";
 import KarttaMerkit from "./KarttaMerkit";
@@ -55,6 +55,7 @@ const Main = () => {
             <Route path="/news/:id/publish" element={<NewsDetail />} />
             <Route path="/news/:id/unpublish" element={<NewsDetail />} />
             <Route path="/kartta/info" element={<KarttaMerkit />} />
+            <Route path="/contacts" element={<ContactList />} />
           </Routes>
         </div>
         <div>
